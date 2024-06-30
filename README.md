@@ -12,11 +12,12 @@ For every specialization we re-run the fine-tune on conversation data generated 
 
 ### Training Approach
 
-
+![Architecture Diagram](https://github.com/never2average/jedi-academy/assets/31365087/8009f621-2dd8-49a3-88ec-0f963f82cc88)
+*System Architecture*
 
 #### 1. Data Collection and Specialization Selection
 1.1. Identify relevant specializations in the field of study
-1.2. Collect data from this [source](magnet:?xt=urn:btih:32916ad30ce4c90ee4c47a95bd0075e44ac15dd2&dn=RC%5F2015-01.bz2&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969)
+1.2. Collect data from this torrent: magnet:?xt=urn:btih:32916ad30ce4c90ee4c47a95bd0075e44ac15dd2&dn=RC%5F2015-01.bz2&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969
 
 #### 2. Persona Generation and Conversation Dataset Creation
 2.1. Utilize Large Language Models (LLMs) to create grounded personas based on collected data
